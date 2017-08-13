@@ -79,3 +79,9 @@ select, textarea {
     display: none;
 }
 .blue {color:blue}
+.date-picker {
+    position: absolute;
+    top: -7px;
+    left: 209px;
+    background-color: #272b30;
+}
