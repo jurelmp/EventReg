@@ -7,7 +7,7 @@
                 <label for="eventName">Event Name:</label>
                 <input ng-model="event.name" id="eventName" required placeholder="Name of your event..." type="text">
                 <label for="eventDate">Event Date:</label>
-                <input ng-model="event.date" id="eventDate" required ng-pattern="/\d\d/\d\d/\d\d\d\d/"
+                <input ng-model="event.date" id="eventDate" date-keys required ng-pattern="/\d\d/\d\d/\d\d\d\d/"
                        placeholder="format (mm/dd/yyyy)..." type="text">
                 <label for="eventTime">Event Time:</label>
                 <input ng-model="event.time" id="eventTime" placeholder="start and end time" type="text">
